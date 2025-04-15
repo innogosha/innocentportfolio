@@ -1,0 +1,28 @@
+/* Global styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.quote {
+  @apply italic text-gray-600 text-lg border-l-4 border-blue-500 pl-4 my-6;
+}
+
+.section-heading {
+  @apply text-2xl font-bold text-blue-800 mb-6 mt-12 pb-2 border-b-2 border-blue-200;
+}
+
+.table-styles {
+  @apply min-w-full border-collapse bg-white shadow-sm rounded-lg overflow-hidden;
+}
+
+.table-styles th {
+  @apply bg-blue-50 text-left py-3 px-4 font-semibold text-gray-700 border-b border-gray-200;
+}
+
+.table-styles td {
+  @apply py-3 px-4 border-b border-gray-100;
+}
+
+.nav-link {
+  @apply text-blue-600 hover:text-blue-800 hover:underline;
+}
