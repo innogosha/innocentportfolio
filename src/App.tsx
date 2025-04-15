@@ -31,7 +31,7 @@ function App() {
             </div>
             <div className="mt-6 md:mt-0">
               <img 
-                src="https://avatars.githubusercontent.com/u/16267179?v=4" 
+                src="profile.jpg" 
                 alt="Innocent G. Shayo"
                 className="w-40 h-40 rounded-full border-4 border-white shadow-lg object-cover hover:scale-105 transition-transform duration-300"
               />
